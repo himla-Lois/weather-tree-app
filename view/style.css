@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #eef4ff;
+  margin: 0;
+  padding: 2rem;
+}
+
+.tree {
+  padding: 1rem;
+  border-radius: 12px;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.tree-graphic {
+  font-size: 5rem;
+}
+
+/* Seasons */
+.spring { background: #d4f8d4; }
+.summer { background: #ffeaa7; }
+.autumn { background: #fab1a0; }
+.winter { background: #dfe6e9; }
+
+/* Weather conditions */
+.clear { border: 2px solid #f1c40f; }
+.rain { border: 2px dashed #3498db; }
+.snow { border: 2px dotted #95a5a6; }
+.clouds { border: 2px solid #bdc3c7; }
